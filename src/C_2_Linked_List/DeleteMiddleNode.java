@@ -1,6 +1,6 @@
 package C_2_Linked_List;
 
-import sun.awt.image.ImageWatched;
+//import sun.awt.image.ImageWatched;
 
 /**
  * Created by Shahbaz on 16-May-19.

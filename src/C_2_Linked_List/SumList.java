@@ -1,7 +1,7 @@
 package C_2_Linked_List;
 
-import com.sun.scenario.effect.impl.state.LinearConvolveKernel;
-import sun.awt.image.ImageWatched;
+/*import com.sun.scenario.effect.impl.state.LinearConvolveKernel;
+import sun.awt.image.ImageWatched;*/
 
 import java.util.LinkedList;
 
