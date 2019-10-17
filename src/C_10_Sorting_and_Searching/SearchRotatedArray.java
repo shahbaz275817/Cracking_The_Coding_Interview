@@ -2,11 +2,11 @@ package C_10_Sorting_and_Searching;
 
 public class SearchRotatedArray {
 
-    static int search(int a[], int x) {
+    private static int search(int[] a, int x) {
         return search(a, 0, a.length - 1, x);
     }
 
-    static int search(int a[],int left,int right, int x){
+    private static int search(int[] a,int left,int right, int x){
         int mid = (right + left)/2;
 
         if (x == a[mid]) { // Found element
@@ -16,8 +16,6 @@ public class SearchRotatedArray {
             return -1;
         }
 
-        boolean leftSearched = false;
-        boolean rightSearched = false;
         if(a[mid] > a[left]){
             //binary search left
                 if(x >= a[left] && x < a[mid]){
